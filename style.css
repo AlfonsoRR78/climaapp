@@ -1,0 +1,96 @@
+
+:root {
+    --negro: #000;
+    --obscuro: rgb(170, 166, 166);
+    --blanco: #fff;
+    --gris: rgb(105, 109, 105);
+
+}
+
+html {
+
+    font-size: 62.5%; /* se inicializa y estandariza el documento para manejo del tamaño en REM */
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:var(--blanco);
+      
+}
+.container{
+     padding: 2rem;
+     background: var(--obscuro);
+     width: 100%;
+     max-width: 375px;
+     margin: 1rem;
+     border-radius: 1rem;
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button {
+    margin:.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 5rem;
+    width: 5rem;
+    outline: none;
+        
+}
+button:hover {
+    background: var(--gris);
+}
+
+
+
+input{
+    border: none;
+    outline: none;
+    padding-inline-start: 1rem;
+    border-radius: 5rem;
+    background: var(gris);
+    width: 15rem;
+    height: 1rem;
+
+}
+.temperatura{
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+
+@media (min-width: 720px ) {
+
+    .container{
+        padding: 5rem;
+        background: var(--obscuro);
+        width: 100%;
+        max-width: 700px;
+        margin: 5rem;
+        border-radius: 1rem;
+    }
+
+    input{
+        padding-inline-start: 2rem;
+        width: 40rem;
+        height: 2.5rem;
+        font-size: 2rem;
+
+    }
+
+    .temperatura {
+        font-size: 2rem;
+    }
+  
+}
