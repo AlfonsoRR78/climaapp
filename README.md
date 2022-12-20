@@ -24,4 +24,4 @@ Añadir informacion de estado de nubosidad, temperatura maxima, temperatura mini
 Añadir fondos que cambien de acuerdo la region buscada.
 mejorar la presentacion de la interfaz con transpariencias.
 
-##Se añaden mejoras recomendadas.
+## Se añaden mejoras recomendadas.
