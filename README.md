@@ -23,3 +23,5 @@ Abrir el archivo index.html en cualquier navegador y utilizar la interfaz.
 Añadir informacion de estado de nubosidad, temperatura maxima, temperatura minima.
 Añadir fondos que cambien de acuerdo la region buscada.
 mejorar la presentacion de la interfaz con transpariencias.
+
+##Se añaden mejoras recomendadas.

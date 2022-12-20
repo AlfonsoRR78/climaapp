@@ -1,8 +1,8 @@
 
 :root {
     --negro: #000;
-    --obscuro: rgb(170, 166, 166);
-    --blanco: #fff;
+    --obscuro: #000000d0;
+    --blanco: rgb(153, 147, 147);
     --gris: rgb(105, 109, 105);
 
 }
@@ -15,12 +15,14 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
+    color: var(--blanco);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background:var(--blanco);
+    background: #222;
+    background-image: url("https://source.unsplash.com/1600x1150/?landscape");
       
 }
 .container{
@@ -38,7 +40,10 @@ body {
     justify-content: center;
 
 }
-button {
+
+
+
+#button1 {
     margin:.5rem;
     border-radius: 50%;
     border: none;
@@ -92,5 +97,10 @@ input{
     .temperatura {
         font-size: 2rem;
     }
-  
-}
+
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+         }
+    }
